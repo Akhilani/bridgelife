@@ -1,0 +1,440 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "pricing": "Pricing",
+    "about": "About",
+    "login": "Sign In",
+    "register": "Get Started",
+    "dashboard": "Dashboard",
+    "logout": "Sign Out",
+    "language": "Language"
+  },
+  "hero": {
+    "badge": "Shanghai's #1 Expat Concierge",
+    "title": "Your Life in China,",
+    "titleAccent": "Simplified.",
+    "subtitle": "From proxy shopping to visa support — we handle every daily challenge so you can focus on what matters. Expert local runners available 24/7.",
+    "cta": "Start Your First Task",
+    "ctaSecondary": "View All Services",
+    "trustNoChinese": "No Chinese required",
+    "trustCancel": "Cancel anytime",
+    "trustPayments": "International payments",
+    "stats": {
+      "clients": "2,400+ Happy Clients",
+      "languages": "3 Languages",
+      "availability": "24/7 Available",
+      "tasks": "12,000+ Tasks Done"
+    }
+  },
+  "services": {
+    "title": "Everything You Need,",
+    "titleAccent": "All in One Place",
+    "subtitle": "From daily errands to complex paperwork — our team of expert local runners has you covered.",
+    "items": {
+      "shopping": {
+        "name": "Proxy Shopping",
+        "description": "Order from Meituan, Dianping, Taobao, and more. We place orders on your behalf on any Chinese platform.",
+        "price": "Free for members",
+        "priceAlt": "¥50/order"
+      },
+      "phone_translation": {
+        "name": "Phone Translation",
+        "description": "Live bilingual call assistance. We join or make calls with you to break language barriers in real time.",
+        "price": "From ¥200/hr",
+        "priceAlt": "¥200/hr"
+      },
+      "document_translation": {
+        "name": "Document Translation",
+        "description": "Contracts, bills, medical forms, leases — certified translations with 24-hour turnaround.",
+        "price": "From ¥150/page",
+        "priceAlt": "¥150/page"
+      },
+      "ride_booking": {
+        "name": "Ride Booking",
+        "description": "DiDi and taxi bookings handled for you. No Chinese app required — just share your destination.",
+        "price": "Free for members",
+        "priceAlt": "¥30/booking"
+      },
+      "visa_support": {
+        "name": "Visa & PSB Support",
+        "description": "Residence permits, visa renewals, PSB registrations — expert guidance through every step.",
+        "price": "From ¥300",
+        "priceAlt": "From ¥300"
+      },
+      "house_hunting": {
+        "name": "House Hunting",
+        "description": "Property search, landlord negotiation, and lease review. Find your perfect home stress-free.",
+        "price": "From ¥800",
+        "priceAlt": "From ¥800"
+      },
+      "errands": {
+        "name": "Custom Errands",
+        "description": "Anything else — queue at government offices, pick up packages, bank visits — our runners do it all.",
+        "price": "¥200–400/hr",
+        "priceAlt": "¥200–400/hr"
+      },
+      "app_navigation": {
+        "name": "App Navigation",
+        "description": "Set up and navigate Chinese apps: WeChat Pay, Alipay, Didi, Meituan, Taobao, and more.",
+        "price": "From ¥100",
+        "priceAlt": "From ¥100"
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "How It",
+    "titleAccent": "Works",
+    "subtitle": "Get expert help in three simple steps.",
+    "steps": {
+      "submit": {
+        "title": "Submit Your Task",
+        "description": "Describe what you need via text, voice note, or image. Our smart form guides you through every detail."
+      },
+      "assign": {
+        "title": "We Assign an Expert",
+        "description": "Your request is reviewed by an operator and assigned to a local runner who speaks the language and knows the system."
+      },
+      "done": {
+        "title": "Task Completed",
+        "description": "Track progress in real time, chat with your runner, and receive confirmation once everything is done."
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked",
+    "titleAccent": "Questions",
+    "items": [
+      {
+        "question": "Do I need to speak Chinese?",
+        "answer": "Not at all. Our platform and runners are fully multilingual (English, French, Chinese). You communicate with us in your language and we handle everything in Chinese on your behalf."
+      },
+      {
+        "question": "How fast are tasks completed?",
+        "answer": "Most tasks are assigned within 30 minutes during business hours. Simple proxy orders are typically completed within 2 hours. Complex tasks like visa support may take 1–3 business days."
+      },
+      {
+        "question": "Is the membership worth it?",
+        "answer": "If you place more than 2 proxy orders per month or need more than 1 hour of errand support, the membership pays for itself immediately. Members also receive 20% off all other services."
+      },
+      {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept international credit and debit cards via Stripe (Visa, Mastercard, Amex). This makes it easy for expats without Chinese payment apps set up."
+      },
+      {
+        "question": "Can I cancel my membership anytime?",
+        "answer": "Yes. Cancel with one click from your dashboard. You retain access until the end of your current billing period with no penalties."
+      },
+      {
+        "question": "Is my personal information secure?",
+        "answer": "Absolutely. All data is encrypted in transit and at rest. We never share your information with third parties. Our platform uses bank-grade security via Supabase and Stripe."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Loved by",
+    "titleAccent": "Expats",
+    "items": [
+      {
+        "name": "Sophie L.",
+        "role": "French Architect, Shanghai",
+        "quote": "BridgeLife is indispensable. They sorted my apartment lease renewal and I didn't have to say a single word of Chinese. Absolute lifesaver.",
+        "rating": 5
+      },
+      {
+        "name": "James H.",
+        "role": "British Finance Director, Pudong",
+        "quote": "The proxy shopping feature alone is worth the membership. My Meituan orders placed for me, every week, without any hassle.",
+        "rating": 5
+      },
+      {
+        "name": "Elena V.",
+        "role": "Italian Designer, Jing'an",
+        "quote": "I used the visa support service and it was flawless. Everything prepared, submitted, and tracked. I never had to visit a government office myself.",
+        "rating": 5
+      }
+    ]
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to your BridgeLife account",
+      "email": "Email address",
+      "password": "Password",
+      "submit": "Sign In",
+      "forgotPassword": "Forgot password?",
+      "noAccount": "Don't have an account?",
+      "register": "Get started free",
+      "google": "Continue with Google",
+      "loading": "Signing in..."
+    },
+    "register": {
+      "title": "Join BridgeLife",
+      "subtitle": "Create your account and start delegating today",
+      "name": "Full name",
+      "email": "Email address",
+      "password": "Password",
+      "language": "Preferred language",
+      "submit": "Create Account",
+      "hasAccount": "Already have an account?",
+      "login": "Sign in",
+      "loading": "Creating account...",
+      "termsNote": "By registering, you agree to our Terms of Service and Privacy Policy."
+    },
+    "errors": {
+      "invalidCredentials": "Invalid email or password. Please try again.",
+      "emailInUse": "An account with this email already exists.",
+      "weakPassword": "Password must be at least 8 characters.",
+      "generic": "Something went wrong. Please try again."
+    }
+  },
+  "dashboard": {
+    "greeting": "Good",
+    "morning": "morning",
+    "afternoon": "afternoon",
+    "evening": "evening",
+    "overview": {
+      "title": "Overview",
+      "activeTasks": "Active Tasks",
+      "completedTasks": "Completed",
+      "memberStatus": "Membership",
+      "minutesLeft": "Errand Minutes Left",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "newTask": "New Task",
+      "viewTasks": "My Tasks",
+      "membership": "Membership",
+      "services": "Services"
+    },
+    "recentTasks": {
+      "title": "Recent Tasks",
+      "empty": "No tasks yet. Submit your first task!",
+      "viewAll": "View all tasks"
+    }
+  },
+  "tasks": {
+    "title": "My Tasks",
+    "subtitle": "Track and manage all your concierge requests",
+    "newTask": "New Task",
+    "filters": {
+      "all": "All",
+      "active": "Active",
+      "completed": "Completed",
+      "canceled": "Canceled"
+    },
+    "status": {
+      "pending": "Pending",
+      "assigned": "Assigned",
+      "in_progress": "In Progress",
+      "action_required": "Action Required",
+      "completed": "Completed",
+      "canceled": "Canceled"
+    },
+    "empty": "No tasks found",
+    "emptySubtitle": "Submit your first concierge request to get started.",
+    "detail": {
+      "back": "Back to Tasks",
+      "progress": "Task Progress",
+      "chat": "Chat with Concierge",
+      "attachments": "Attachments",
+      "typeMessage": "Type a message...",
+      "send": "Send",
+      "noMessages": "No messages yet. Say hello!",
+      "runner": "Your Runner",
+      "created": "Created",
+      "updated": "Last Updated",
+      "price": "Service Cost"
+    },
+    "wizard": {
+      "title": "New Service Request",
+      "steps": {
+        "category": "Choose Service",
+        "details": "Task Details",
+        "attachments": "Add Files",
+        "review": "Review & Confirm"
+      },
+      "category": {
+        "title": "What do you need help with?",
+        "subtitle": "Select the type of service you need"
+      },
+      "details": {
+        "title": "Tell us more",
+        "titleLabel": "Task Title",
+        "descriptionLabel": "Description",
+        "descriptionPlaceholder": "Describe exactly what you need. The more detail, the better!",
+        "locationLabel": "Location (optional)",
+        "locationPlaceholder": "Address or district in Shanghai"
+      },
+      "attachments": {
+        "title": "Add supporting files",
+        "subtitle": "Upload menus, contracts, documents, or photos",
+        "dropzone": "Drop files here or click to upload",
+        "types": "Supports: PDF, JPG, PNG, DOCX, MP3, MP4 (max 20MB each)",
+        "voiceNote": "Record Voice Note",
+        "recording": "Recording..."
+      },
+      "review": {
+        "title": "Review your request",
+        "service": "Service",
+        "description": "Description",
+        "price": "Estimated Cost",
+        "memberDiscount": "Member discount applied",
+        "confirm": "Submit Request",
+        "back": "Go Back",
+        "loading": "Submitting..."
+      }
+    }
+  },
+  "membership": {
+    "title": "Membership",
+    "titleAccent": "Made Simple",
+    "subtitle": "One flat price. Everything included.",
+    "currency": "¥",
+    "price": "299",
+    "period": "/month",
+    "cta": "Start Your Membership",
+    "description": "Everything you need to navigate daily life in Shanghai without barriers.",
+    "features": {
+      "freeProxy": "Unlimited proxy ordering (free)",
+      "errands": "120 min/month errand time",
+      "discount": "20% off all other services",
+      "priority": "Priority queue & response",
+      "chat": "Dedicated chat concierge",
+      "support": "24/7 WhatsApp support"
+    },
+    "status": {
+      "active": "Active Member",
+      "inactive": "Not a Member"
+    },
+    "plan": "BridgeLife Monthly Plan",
+    "renews": "Renews on",
+    "expires": "Expired on",
+    "errands": {
+      "title": "Errand Minutes",
+      "left": "minutes remaining this month",
+      "reset": "Resets on"
+    },
+    "upgrade": {
+      "title": "Unlock Full Access",
+      "subtitle": "Join thousands of expats who've simplified their life in China",
+      "cta": "Subscribe for ¥299/month",
+      "loading": "Redirecting to checkout..."
+    },
+    "cancel": {
+      "title": "Cancel Membership",
+      "subtitle": "You'll keep access until the end of your billing period.",
+      "confirm": "Yes, cancel",
+      "keep": "Keep Membership"
+    },
+    "benefits": {
+      "freeProxy": "Unlimited proxy ordering",
+      "errands": "120 min/month errand time",
+      "discount": "20% off all services",
+      "priority": "Priority support"
+    }
+  },
+  "ops": {
+    "queue": {
+      "title": "Dispatch Queue",
+      "subtitle": "Manage and assign incoming task requests",
+      "columns": {
+        "unassigned": "Unassigned",
+        "in_progress": "In Progress",
+        "pendingClient": "Awaiting Client",
+        "done": "Done"
+      },
+      "assignTo": "Assign to runner",
+      "noTasks": "No tasks here"
+    },
+    "workspace": {
+      "title": "Task Workspace",
+      "details": "Task Details",
+      "client": "Client",
+      "category": "Category",
+      "created": "Created",
+      "description": "Description",
+      "attachments": "Attachments",
+      "timer": {
+        "title": "Errand Timer",
+        "start": "Start Timer",
+        "stop": "Stop Timer",
+        "elapsed": "Elapsed",
+        "charge": "Current Charge",
+        "rate": "Rate"
+      }
+    }
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "nav": {
+      "overview": "Overview",
+      "users": "Users",
+      "tasks": "Tasks",
+      "pricing": "Pricing"
+    },
+    "overview": {
+      "totalUsers": "Total Users",
+      "totalTasks": "Total Tasks",
+      "activeMembers": "Active Members",
+      "monthlyRevenue": "Monthly Revenue"
+    },
+    "users": {
+      "title": "User Management",
+      "search": "Search users...",
+      "role": "Role",
+      "email": "Email",
+      "name": "Name",
+      "joined": "Joined",
+      "actions": "Actions",
+      "changeRole": "Change Role",
+      "suspend": "Suspend"
+    },
+    "pricing": {
+      "title": "Pricing Configuration",
+      "save": "Save Changes",
+      "membership": "Membership Price (CNY/month)",
+      "errands": "Errand Rate (CNY/hour)",
+      "documentTranslation": "Document Translation (CNY/page)"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try again",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "search": "Search",
+    "filter": "Filter",
+    "noResults": "No results found",
+    "or": "or",
+    "and": "and",
+    "of": "of",
+    "page": "Page",
+    "perPage": "per page",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "footer": {
+    "tagline": "Your expert concierge team in Shanghai.",
+    "links": {
+      "services": "Services",
+      "pricing": "Pricing",
+      "about": "About Us",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "contact": "Contact"
+    },
+    "copyright": "© 2025 BridgeLife. All rights reserved.",
+    "madeIn": "Made with care in Shanghai 🇨🇳"
+  }
+}

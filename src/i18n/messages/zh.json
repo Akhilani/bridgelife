@@ -1,0 +1,440 @@
+{
+  "nav": {
+    "home": "首页",
+    "services": "服务",
+    "pricing": "价格",
+    "about": "关于我们",
+    "login": "登录",
+    "register": "立即开始",
+    "dashboard": "控制台",
+    "logout": "退出登录",
+    "language": "语言"
+  },
+  "hero": {
+    "badge": "上海外籍人士首选礼宾服务",
+    "title": "您在中国的生活，",
+    "titleAccent": "从此简单。",
+    "subtitle": "从代购到签证支持——我们处理每一个日常挑战，让您专注于真正重要的事情。专业本地跑腿员全天候待命。",
+    "cta": "提交第一个任务",
+    "ctaSecondary": "查看全部服务",
+    "trustNoChinese": "无需中文",
+    "trustCancel": "随时取消",
+    "trustPayments": "国际付款",
+    "stats": {
+      "clients": "2,400+ 满意客户",
+      "languages": "3种语言服务",
+      "availability": "全天候服务",
+      "tasks": "12,000+ 任务完成"
+    }
+  },
+  "services": {
+    "title": "您需要的一切，",
+    "titleAccent": "尽在一处",
+    "subtitle": "从日常跑腿到复杂手续——我们专业的本地跑腿团队随时为您效劳。",
+    "items": {
+      "shopping": {
+        "name": "代购服务",
+        "description": "在美团、大众点评、淘宝等平台代为下单。我们代您在任何中国平台购物。",
+        "price": "会员免费",
+        "priceAlt": "¥50/单"
+      },
+      "phone_translation": {
+        "name": "电话翻译",
+        "description": "实时双语电话协助。我们与您一起接打电话，实时消除语言障碍。",
+        "price": "¥200/小时起",
+        "priceAlt": "¥200/小时"
+      },
+      "document_translation": {
+        "name": "文件翻译",
+        "description": "合同、账单、医疗表格、租约——24小时内完成认证翻译。",
+        "price": "¥150/页起",
+        "priceAlt": "¥150/页"
+      },
+      "ride_booking": {
+        "name": "打车代订",
+        "description": "代您预订滴滴和出租车。无需中国应用——只需告诉我们您的目的地。",
+        "price": "会员免费",
+        "priceAlt": "¥30/次"
+      },
+      "visa_support": {
+        "name": "签证及公安局协助",
+        "description": "居留许可、签证续签、公安局登记——全程专业指导，每一步都有我们陪伴。",
+        "price": "¥300起",
+        "priceAlt": "¥300起"
+      },
+      "house_hunting": {
+        "name": "找房服务",
+        "description": "房源搜索、房东谈判和租约审查。轻松找到您理想的家。",
+        "price": "¥800起",
+        "priceAlt": "¥800起"
+      },
+      "errands": {
+        "name": "定制跑腿",
+        "description": "其他任何事务——政府机关排队、取包裹、银行业务——我们的跑腿员一手包办。",
+        "price": "¥200–400/小时",
+        "priceAlt": "¥200–400/小时"
+      },
+      "app_navigation": {
+        "name": "应用导航",
+        "description": "设置并使用中国应用：微信支付、支付宝、滴滴、美团、淘宝等。",
+        "price": "¥100起",
+        "priceAlt": "¥100起"
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "如何",
+    "titleAccent": "使用",
+    "subtitle": "三个简单步骤，获得专业帮助。",
+    "steps": {
+      "submit": {
+        "title": "提交任务",
+        "description": "通过文字、语音或图片描述您的需求。我们的智能表单将引导您填写每个细节。"
+      },
+      "assign": {
+        "title": "我们分配专家",
+        "description": "您的请求将由运营员审核，并分配给懂语言、熟悉体系的本地跑腿员。"
+      },
+      "done": {
+        "title": "任务完成",
+        "description": "实时跟踪进度，与跑腿员聊天，任务完成后收到确认通知。"
+      }
+    }
+  },
+  "faq": {
+    "title": "常见",
+    "titleAccent": "问题",
+    "items": [
+      {
+        "question": "我需要会说中文吗？",
+        "answer": "完全不需要。我们的平台和跑腿员都是完全多语言的（英语、法语、中文）。您用自己的语言与我们沟通，我们代您处理所有中文事务。"
+      },
+      {
+        "question": "任务完成需要多长时间？",
+        "answer": "大多数任务在工作时间内30分钟内分配完毕。简单的代购订单通常在2小时内完成。签证支持等复杂任务可能需要1-3个工作日。"
+      },
+      {
+        "question": "会员资格值得吗？",
+        "answer": "如果您每月代购超过2次或需要超过1小时的跑腿支持，会员费立即物超所值。会员还享受所有其他服务8折优惠。"
+      },
+      {
+        "question": "你们接受哪些付款方式？",
+        "answer": "我们通过Stripe接受国际信用卡和借记卡（Visa、Mastercard、Amex）。这让没有设置中国支付应用的外籍人士也能轻松付款。"
+      },
+      {
+        "question": "我可以随时取消会员资格吗？",
+        "answer": "是的。从控制台一键取消。您将在当前计费周期结束前保留访问权限，无任何违约金。"
+      },
+      {
+        "question": "我的个人信息安全吗？",
+        "answer": "绝对安全。所有数据在传输和存储过程中均经过加密。我们绝不与第三方共享您的信息。我们的平台通过Supabase和Stripe使用银行级安全保护。"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "深受",
+    "titleAccent": "外籍人士喜爱",
+    "items": [
+      {
+        "name": "Sophie L.",
+        "role": "法国建筑师，上海",
+        "quote": "BridgeLife不可或缺。他们帮我处理了公寓租约续签，我一句中文都没说。真正的救星。",
+        "rating": 5
+      },
+      {
+        "name": "James H.",
+        "role": "英国财务总监，浦东",
+        "quote": "代购功能本身就值回会员费。每周帮我在美团下单，毫无麻烦。",
+        "rating": 5
+      },
+      {
+        "name": "Elena V.",
+        "role": "意大利设计师，静安",
+        "quote": "我使用了签证支持服务，完美无缺。所有文件准备好、提交、跟踪。我从未需要亲自去政府机关。",
+        "rating": 5
+      }
+    ]
+  },
+  "auth": {
+    "login": {
+      "title": "欢迎回来",
+      "subtitle": "登录您的BridgeLife账户",
+      "email": "邮箱地址",
+      "password": "密码",
+      "submit": "登录",
+      "forgotPassword": "忘记密码？",
+      "noAccount": "还没有账户？",
+      "register": "免费注册",
+      "google": "使用Google继续",
+      "loading": "登录中..."
+    },
+    "register": {
+      "title": "加入BridgeLife",
+      "subtitle": "创建账户，立即开始委托任务",
+      "name": "全名",
+      "email": "邮箱地址",
+      "password": "密码",
+      "language": "首选语言",
+      "submit": "创建账户",
+      "hasAccount": "已有账户？",
+      "login": "登录",
+      "loading": "创建账户中...",
+      "termsNote": "注册即表示您同意我们的服务条款和隐私政策。"
+    },
+    "errors": {
+      "invalidCredentials": "邮箱或密码无效，请重试。",
+      "emailInUse": "该邮箱已有账户。",
+      "weakPassword": "密码至少需要8个字符。",
+      "generic": "出了点问题，请重试。"
+    }
+  },
+  "dashboard": {
+    "greeting": "您好",
+    "morning": "早上好",
+    "afternoon": "下午好",
+    "evening": "晚上好",
+    "overview": {
+      "title": "概览",
+      "activeTasks": "进行中任务",
+      "completedTasks": "已完成",
+      "memberStatus": "会员状态",
+      "minutesLeft": "剩余跑腿分钟",
+      "active": "有效",
+      "inactive": "未激活"
+    },
+    "quickActions": {
+      "title": "快速操作",
+      "newTask": "新任务",
+      "viewTasks": "我的任务",
+      "membership": "会员",
+      "services": "服务"
+    },
+    "recentTasks": {
+      "title": "最近任务",
+      "empty": "暂无任务。提交您的第一个任务！",
+      "viewAll": "查看全部任务"
+    }
+  },
+  "tasks": {
+    "title": "我的任务",
+    "subtitle": "跟踪和管理您所有的礼宾服务请求",
+    "newTask": "新任务",
+    "filters": {
+      "all": "全部",
+      "active": "进行中",
+      "completed": "已完成",
+      "canceled": "已取消"
+    },
+    "status": {
+      "pending": "待处理",
+      "assigned": "已分配",
+      "in_progress": "进行中",
+      "action_required": "需要操作",
+      "completed": "已完成",
+      "canceled": "已取消"
+    },
+    "empty": "未找到任务",
+    "emptySubtitle": "提交您的第一个礼宾服务请求以开始。",
+    "detail": {
+      "back": "返回任务",
+      "progress": "任务进度",
+      "chat": "与礼宾员聊天",
+      "attachments": "附件",
+      "typeMessage": "输入消息...",
+      "send": "发送",
+      "noMessages": "暂无消息。打个招呼吧！",
+      "runner": "您的跑腿员",
+      "created": "创建于",
+      "updated": "最后更新",
+      "price": "服务费用"
+    },
+    "wizard": {
+      "title": "新服务请求",
+      "steps": {
+        "category": "选择服务",
+        "details": "任务详情",
+        "attachments": "添加文件",
+        "review": "审核确认"
+      },
+      "category": {
+        "title": "您需要什么帮助？",
+        "subtitle": "选择您需要的服务类型"
+      },
+      "details": {
+        "title": "告诉我们更多",
+        "titleLabel": "任务标题",
+        "descriptionLabel": "描述",
+        "descriptionPlaceholder": "详细描述您的需求。越详细越好！",
+        "locationLabel": "地点（可选）",
+        "locationPlaceholder": "上海的地址或区域"
+      },
+      "attachments": {
+        "title": "添加支持文件",
+        "subtitle": "上传菜单、合同、文件或照片",
+        "dropzone": "将文件拖放到此处或点击上传",
+        "types": "支持：PDF、JPG、PNG、DOCX、MP3、MP4（每个最大20MB）",
+        "voiceNote": "录制语音备注",
+        "recording": "录制中..."
+      },
+      "review": {
+        "title": "审核您的请求",
+        "service": "服务",
+        "description": "描述",
+        "price": "预计费用",
+        "memberDiscount": "已应用会员折扣",
+        "confirm": "提交请求",
+        "back": "返回",
+        "loading": "提交中..."
+      }
+    }
+  },
+  "membership": {
+    "title": "会员",
+    "titleAccent": "一目了然",
+    "subtitle": "一个固定价格，包含一切。",
+    "currency": "¥",
+    "price": "299",
+    "period": "/月",
+    "cta": "开始会员订阅",
+    "description": "您在上海日常生活所需的一切，无任何障碍。",
+    "features": {
+      "freeProxy": "无限次代购（免费）",
+      "errands": "120分钟/月跑腿时间",
+      "discount": "所有其他服务8折优惠",
+      "priority": "优先队列及回复",
+      "chat": "专属聊天礼宾员",
+      "support": "24/7 WhatsApp支持"
+    },
+    "status": {
+      "active": "有效会员",
+      "inactive": "非会员"
+    },
+    "plan": "BridgeLife月度套餐",
+    "renews": "续费日",
+    "expires": "到期日",
+    "errands": {
+      "title": "跑腿分钟",
+      "left": "本月剩余分钟",
+      "reset": "重置日期"
+    },
+    "upgrade": {
+      "title": "解锁完整访问",
+      "subtitle": "加入数千名简化中国生活的外籍人士",
+      "cta": "订阅 ¥299/月",
+      "loading": "正在跳转到结账..."
+    },
+    "cancel": {
+      "title": "取消会员资格",
+      "subtitle": "您将保留到当前计费周期结束的访问权限。",
+      "confirm": "是的，取消",
+      "keep": "保留会员资格"
+    },
+    "benefits": {
+      "freeProxy": "无限次代购",
+      "errands": "每月120分钟跑腿",
+      "discount": "所有服务8折优惠",
+      "priority": "优先支持"
+    }
+  },
+  "ops": {
+    "queue": {
+      "title": "调度队列",
+      "subtitle": "管理和分配进来的任务请求",
+      "columns": {
+        "unassigned": "未分配",
+        "in_progress": "进行中",
+        "pendingClient": "等待客户",
+        "done": "已完成"
+      },
+      "assignTo": "分配给跑腿员",
+      "noTasks": "这里没有任务"
+    },
+    "workspace": {
+      "title": "任务工作区",
+      "details": "任务详情",
+      "client": "客户",
+      "category": "类别",
+      "created": "创建于",
+      "description": "描述",
+      "attachments": "附件",
+      "timer": {
+        "title": "跑腿计时器",
+        "start": "开始计时",
+        "stop": "停止计时",
+        "elapsed": "已用时间",
+        "charge": "当前费用",
+        "rate": "费率"
+      }
+    }
+  },
+  "admin": {
+    "title": "管理员控制台",
+    "nav": {
+      "overview": "概览",
+      "users": "用户",
+      "tasks": "任务",
+      "pricing": "价格"
+    },
+    "overview": {
+      "totalUsers": "总用户数",
+      "totalTasks": "总任务数",
+      "activeMembers": "活跃会员",
+      "monthlyRevenue": "月收入"
+    },
+    "users": {
+      "title": "用户管理",
+      "search": "搜索用户...",
+      "role": "角色",
+      "email": "邮箱",
+      "name": "姓名",
+      "joined": "加入时间",
+      "actions": "操作",
+      "changeRole": "更改角色",
+      "suspend": "暂停"
+    },
+    "pricing": {
+      "title": "价格配置",
+      "save": "保存更改",
+      "membership": "会员价格（元/月）",
+      "errands": "跑腿费率（元/小时）",
+      "documentTranslation": "文件翻译（元/页）"
+    }
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "出了点问题",
+    "retry": "重试",
+    "cancel": "取消",
+    "save": "保存",
+    "delete": "删除",
+    "edit": "编辑",
+    "close": "关闭",
+    "back": "返回",
+    "next": "下一步",
+    "submit": "提交",
+    "confirm": "确认",
+    "search": "搜索",
+    "filter": "筛选",
+    "noResults": "未找到结果",
+    "or": "或",
+    "and": "和",
+    "of": "共",
+    "page": "页",
+    "perPage": "每页",
+    "yes": "是",
+    "no": "否"
+  },
+  "footer": {
+    "tagline": "您在上海的专业礼宾服务团队。",
+    "links": {
+      "services": "服务",
+      "pricing": "价格",
+      "about": "关于我们",
+      "privacy": "隐私政策",
+      "terms": "服务条款",
+      "contact": "联系我们"
+    },
+    "copyright": "© 2025 BridgeLife. 保留所有权利。",
+    "madeIn": "用心制作于上海 🇨🇳"
+  }
+}

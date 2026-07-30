@@ -1,0 +1,440 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "pricing": "Tarifs",
+    "about": "À propos",
+    "login": "Se connecter",
+    "register": "Commencer",
+    "dashboard": "Tableau de bord",
+    "logout": "Se déconnecter",
+    "language": "Langue"
+  },
+  "hero": {
+    "badge": "N°1 des services de conciergerie pour expatriés à Shanghai",
+    "title": "Votre vie en Chine,",
+    "titleAccent": "Simplifiée.",
+    "subtitle": "Des commandes par procuration au soutien visa — nous gérons chaque défi quotidien pour que vous puissiez vous concentrer sur l'essentiel. Des runners locaux experts disponibles 24h/24.",
+    "cta": "Commencer votre première tâche",
+    "ctaSecondary": "Voir tous les services",
+    "trustNoChinese": "Pas de chinois requis",
+    "trustCancel": "Annulez à tout moment",
+    "trustPayments": "Paiements internationaux",
+    "stats": {
+      "clients": "2 400+ clients satisfaits",
+      "languages": "3 langues",
+      "availability": "Disponible 24h/24",
+      "tasks": "12 000+ tâches réalisées"
+    }
+  },
+  "services": {
+    "title": "Tout ce dont vous avez besoin,",
+    "titleAccent": "En un seul endroit",
+    "subtitle": "Des courses quotidiennes aux démarches complexes — notre équipe de runners locaux experts est là pour vous.",
+    "items": {
+      "shopping": {
+        "name": "Achats par procuration",
+        "description": "Commandez sur Meituan, Dianping, Taobao et plus encore. Nous passons les commandes en votre nom sur toute plateforme chinoise.",
+        "price": "Gratuit pour les membres",
+        "priceAlt": "¥50/commande"
+      },
+      "phone_translation": {
+        "name": "Traduction téléphonique",
+        "description": "Assistance bilingue lors d'appels en direct. Nous rejoignons ou passons des appels avec vous pour briser les barrières linguistiques en temps réel.",
+        "price": "À partir de ¥200/h",
+        "priceAlt": "¥200/h"
+      },
+      "document_translation": {
+        "name": "Traduction de documents",
+        "description": "Contrats, factures, formulaires médicaux, baux — traductions certifiées avec délai de 24 heures.",
+        "price": "À partir de ¥150/page",
+        "priceAlt": "¥150/page"
+      },
+      "ride_booking": {
+        "name": "Réservation de taxi",
+        "description": "Réservations DiDi et taxi gérées pour vous. Aucune application chinoise requise — partagez simplement votre destination.",
+        "price": "Gratuit pour les membres",
+        "priceAlt": "¥30/réservation"
+      },
+      "visa_support": {
+        "name": "Soutien visa & PSB",
+        "description": "Permis de résidence, renouvellements de visa, enregistrements PSB — conseils experts à chaque étape.",
+        "price": "À partir de ¥300",
+        "priceAlt": "À partir de ¥300"
+      },
+      "house_hunting": {
+        "name": "Recherche de logement",
+        "description": "Recherche de propriété, négociation avec le propriétaire et révision du bail. Trouvez votre maison idéale sans stress.",
+        "price": "À partir de ¥800",
+        "priceAlt": "À partir de ¥800"
+      },
+      "errands": {
+        "name": "Courses personnalisées",
+        "description": "Tout le reste — file d'attente aux bureaux gouvernementaux, récupération de colis, visites bancaires — nos runners font tout.",
+        "price": "¥200–400/h",
+        "priceAlt": "¥200–400/h"
+      },
+      "app_navigation": {
+        "name": "Navigation dans les apps",
+        "description": "Configuration et navigation dans les applications chinoises : WeChat Pay, Alipay, DiDi, Meituan, Taobao et plus encore.",
+        "price": "À partir de ¥100",
+        "priceAlt": "À partir de ¥100"
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "Comment",
+    "titleAccent": "ça marche",
+    "subtitle": "Obtenez une aide experte en trois étapes simples.",
+    "steps": {
+      "submit": {
+        "title": "Soumettez votre tâche",
+        "description": "Décrivez ce dont vous avez besoin par texte, note vocale ou image. Notre formulaire intelligent vous guide à travers chaque détail."
+      },
+      "assign": {
+        "title": "Nous assignons un expert",
+        "description": "Votre demande est examinée par un opérateur et confiée à un runner local qui parle la langue et connaît le système."
+      },
+      "done": {
+        "title": "Tâche accomplie",
+        "description": "Suivez la progression en temps réel, chattez avec votre runner et recevez une confirmation dès que tout est fait."
+      }
+    }
+  },
+  "faq": {
+    "title": "Questions",
+    "titleAccent": "Fréquentes",
+    "items": [
+      {
+        "question": "Dois-je parler chinois ?",
+        "answer": "Pas du tout. Notre plateforme et nos runners sont entièrement multilingues (anglais, français, chinois). Vous communiquez avec nous dans votre langue et nous gérons tout en chinois en votre nom."
+      },
+      {
+        "question": "À quelle vitesse les tâches sont-elles accomplies ?",
+        "answer": "La plupart des tâches sont assignées dans les 30 minutes pendant les heures de bureau. Les commandes simples par procuration sont généralement complétées dans les 2 heures. Les tâches complexes comme le soutien visa peuvent prendre 1 à 3 jours ouvrables."
+      },
+      {
+        "question": "L'abonnement en vaut-il la peine ?",
+        "answer": "Si vous passez plus de 2 commandes par procuration par mois ou avez besoin de plus d'une heure de support courses, l'abonnement s'amortit immédiatement. Les membres bénéficient également de 20% de réduction sur tous les autres services."
+      },
+      {
+        "question": "Quels modes de paiement acceptez-vous ?",
+        "answer": "Nous acceptons les cartes de crédit et de débit internationales via Stripe (Visa, Mastercard, Amex). Cela facilite la vie des expatriés n'ayant pas encore configuré les applications de paiement chinoises."
+      },
+      {
+        "question": "Puis-je annuler mon abonnement à tout moment ?",
+        "answer": "Oui. Annulez en un clic depuis votre tableau de bord. Vous conservez l'accès jusqu'à la fin de votre période de facturation en cours, sans pénalités."
+      },
+      {
+        "question": "Mes informations personnelles sont-elles sécurisées ?",
+        "answer": "Absolument. Toutes les données sont chiffrées en transit et au repos. Nous ne partageons jamais vos informations avec des tiers. Notre plateforme utilise une sécurité de niveau bancaire via Supabase et Stripe."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Adoré par les",
+    "titleAccent": "Expatriés",
+    "items": [
+      {
+        "name": "Sophie L.",
+        "role": "Architecte française, Shanghai",
+        "quote": "BridgeLife est indispensable. Ils ont géré le renouvellement de mon bail d'appartement et je n'ai pas eu à dire un seul mot de chinois. Un vrai sauveur.",
+        "rating": 5
+      },
+      {
+        "name": "James H.",
+        "role": "Directeur financier britannique, Pudong",
+        "quote": "La fonctionnalité de commandes par procuration vaut à elle seule l'abonnement. Mes commandes Meituan passées pour moi, chaque semaine, sans aucun tracas.",
+        "rating": 5
+      },
+      {
+        "name": "Elena V.",
+        "role": "Designer italienne, Jing'an",
+        "quote": "J'ai utilisé le service de soutien visa et c'était impeccable. Tout préparé, soumis et suivi. Je n'ai jamais eu à visiter un bureau gouvernemental moi-même.",
+        "rating": 5
+      }
+    ]
+  },
+  "auth": {
+    "login": {
+      "title": "Bon retour",
+      "subtitle": "Connectez-vous à votre compte BridgeLife",
+      "email": "Adresse e-mail",
+      "password": "Mot de passe",
+      "submit": "Se connecter",
+      "forgotPassword": "Mot de passe oublié ?",
+      "noAccount": "Pas encore de compte ?",
+      "register": "Commencer gratuitement",
+      "google": "Continuer avec Google",
+      "loading": "Connexion en cours..."
+    },
+    "register": {
+      "title": "Rejoindre BridgeLife",
+      "subtitle": "Créez votre compte et commencez à déléguer dès aujourd'hui",
+      "name": "Nom complet",
+      "email": "Adresse e-mail",
+      "password": "Mot de passe",
+      "language": "Langue préférée",
+      "submit": "Créer un compte",
+      "hasAccount": "Vous avez déjà un compte ?",
+      "login": "Se connecter",
+      "loading": "Création du compte...",
+      "termsNote": "En vous inscrivant, vous acceptez nos Conditions d'utilisation et notre Politique de confidentialité."
+    },
+    "errors": {
+      "invalidCredentials": "E-mail ou mot de passe invalide. Veuillez réessayer.",
+      "emailInUse": "Un compte avec cet e-mail existe déjà.",
+      "weakPassword": "Le mot de passe doit comporter au moins 8 caractères.",
+      "generic": "Une erreur s'est produite. Veuillez réessayer."
+    }
+  },
+  "dashboard": {
+    "greeting": "Bon",
+    "morning": "matin",
+    "afternoon": "après-midi",
+    "evening": "soir",
+    "overview": {
+      "title": "Aperçu",
+      "activeTasks": "Tâches actives",
+      "completedTasks": "Terminées",
+      "memberStatus": "Abonnement",
+      "minutesLeft": "Minutes de courses restantes",
+      "active": "Actif",
+      "inactive": "Inactif"
+    },
+    "quickActions": {
+      "title": "Actions rapides",
+      "newTask": "Nouvelle tâche",
+      "viewTasks": "Mes tâches",
+      "membership": "Abonnement",
+      "services": "Services"
+    },
+    "recentTasks": {
+      "title": "Tâches récentes",
+      "empty": "Aucune tâche pour l'instant. Soumettez votre première tâche !",
+      "viewAll": "Voir toutes les tâches"
+    }
+  },
+  "tasks": {
+    "title": "Mes tâches",
+    "subtitle": "Suivez et gérez toutes vos demandes de conciergerie",
+    "newTask": "Nouvelle tâche",
+    "filters": {
+      "all": "Toutes",
+      "active": "Actives",
+      "completed": "Terminées",
+      "canceled": "Annulées"
+    },
+    "status": {
+      "pending": "En attente",
+      "assigned": "Assignée",
+      "in_progress": "En cours",
+      "action_required": "Action requise",
+      "completed": "Terminée",
+      "canceled": "Annulée"
+    },
+    "empty": "Aucune tâche trouvée",
+    "emptySubtitle": "Soumettez votre première demande de conciergerie pour commencer.",
+    "detail": {
+      "back": "Retour aux tâches",
+      "progress": "Progression de la tâche",
+      "chat": "Chat avec la conciergerie",
+      "attachments": "Pièces jointes",
+      "typeMessage": "Écrire un message...",
+      "send": "Envoyer",
+      "noMessages": "Aucun message pour l'instant. Dites bonjour !",
+      "runner": "Votre runner",
+      "created": "Créée le",
+      "updated": "Dernière mise à jour",
+      "price": "Coût du service"
+    },
+    "wizard": {
+      "title": "Nouvelle demande de service",
+      "steps": {
+        "category": "Choisir le service",
+        "details": "Détails de la tâche",
+        "attachments": "Ajouter des fichiers",
+        "review": "Vérifier et confirmer"
+      },
+      "category": {
+        "title": "De quoi avez-vous besoin ?",
+        "subtitle": "Sélectionnez le type de service dont vous avez besoin"
+      },
+      "details": {
+        "title": "Dites-nous en plus",
+        "titleLabel": "Titre de la tâche",
+        "descriptionLabel": "Description",
+        "descriptionPlaceholder": "Décrivez exactement ce dont vous avez besoin. Plus c'est détaillé, mieux c'est !",
+        "locationLabel": "Lieu (optionnel)",
+        "locationPlaceholder": "Adresse ou quartier à Shanghai"
+      },
+      "attachments": {
+        "title": "Ajouter des fichiers de support",
+        "subtitle": "Téléchargez des menus, contrats, documents ou photos",
+        "dropzone": "Déposez les fichiers ici ou cliquez pour télécharger",
+        "types": "Supporte : PDF, JPG, PNG, DOCX, MP3, MP4 (max 20 Mo chacun)",
+        "voiceNote": "Enregistrer une note vocale",
+        "recording": "Enregistrement..."
+      },
+      "review": {
+        "title": "Vérifiez votre demande",
+        "service": "Service",
+        "description": "Description",
+        "price": "Coût estimé",
+        "memberDiscount": "Réduction membre appliquée",
+        "confirm": "Soumettre la demande",
+        "back": "Retour",
+        "loading": "Soumission..."
+      }
+    }
+  },
+  "membership": {
+    "title": "Abonnement",
+    "titleAccent": "Simplifié",
+    "subtitle": "Un prix fixe. Tout inclus.",
+    "currency": "¥",
+    "price": "299",
+    "period": "/mois",
+    "cta": "Commencer l'abonnement",
+    "description": "Tout ce dont vous avez besoin pour naviguer dans la vie quotidienne à Shanghai sans barrières.",
+    "features": {
+      "freeProxy": "Commandes par procuration illimitées (gratuites)",
+      "errands": "120 min/mois de courses",
+      "discount": "20% de réduction sur tous les autres services",
+      "priority": "File prioritaire et réponse rapide",
+      "chat": "Conciergerie chat dédiée",
+      "support": "Support WhatsApp 24h/24"
+    },
+    "status": {
+      "active": "Membre actif",
+      "inactive": "Non membre"
+    },
+    "plan": "Forfait mensuel BridgeLife",
+    "renews": "Renouvellement le",
+    "expires": "Expiré le",
+    "errands": {
+      "title": "Minutes de courses",
+      "left": "minutes restantes ce mois-ci",
+      "reset": "Réinitialisation le"
+    },
+    "upgrade": {
+      "title": "Débloquez l'accès complet",
+      "subtitle": "Rejoignez des milliers d'expatriés qui ont simplifié leur vie en Chine",
+      "cta": "S'abonner pour ¥299/mois",
+      "loading": "Redirection vers le paiement..."
+    },
+    "cancel": {
+      "title": "Annuler l'abonnement",
+      "subtitle": "Vous conserverez l'accès jusqu'à la fin de votre période de facturation.",
+      "confirm": "Oui, annuler",
+      "keep": "Conserver l'abonnement"
+    },
+    "benefits": {
+      "freeProxy": "Commandes par procuration illimitées",
+      "errands": "120 min/mois de courses",
+      "discount": "20% de réduction sur tous les services",
+      "priority": "Support prioritaire"
+    }
+  },
+  "ops": {
+    "queue": {
+      "title": "File de dispatch",
+      "subtitle": "Gérez et assignez les demandes de tâches entrantes",
+      "columns": {
+        "unassigned": "Non assignées",
+        "in_progress": "En cours",
+        "pendingClient": "En attente du client",
+        "done": "Terminées"
+      },
+      "assignTo": "Assigner à un runner",
+      "noTasks": "Aucune tâche ici"
+    },
+    "workspace": {
+      "title": "Espace de travail",
+      "details": "Détails de la tâche",
+      "client": "Client",
+      "category": "Catégorie",
+      "created": "Créée le",
+      "description": "Description",
+      "attachments": "Pièces jointes",
+      "timer": {
+        "title": "Minuterie de courses",
+        "start": "Démarrer",
+        "stop": "Arrêter",
+        "elapsed": "Temps écoulé",
+        "charge": "Charge actuelle",
+        "rate": "Tarif"
+      }
+    }
+  },
+  "admin": {
+    "title": "Tableau de bord Admin",
+    "nav": {
+      "overview": "Aperçu",
+      "users": "Utilisateurs",
+      "tasks": "Tâches",
+      "pricing": "Tarifs"
+    },
+    "overview": {
+      "totalUsers": "Utilisateurs totaux",
+      "totalTasks": "Tâches totales",
+      "activeMembers": "Membres actifs",
+      "monthlyRevenue": "Revenus mensuels"
+    },
+    "users": {
+      "title": "Gestion des utilisateurs",
+      "search": "Rechercher des utilisateurs...",
+      "role": "Rôle",
+      "email": "E-mail",
+      "name": "Nom",
+      "joined": "Inscrit le",
+      "actions": "Actions",
+      "changeRole": "Changer le rôle",
+      "suspend": "Suspendre"
+    },
+    "pricing": {
+      "title": "Configuration des tarifs",
+      "save": "Enregistrer les modifications",
+      "membership": "Prix de l'abonnement (CNY/mois)",
+      "errands": "Tarif des courses (CNY/heure)",
+      "documentTranslation": "Traduction de documents (CNY/page)"
+    }
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "retry": "Réessayer",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "back": "Retour",
+    "next": "Suivant",
+    "submit": "Soumettre",
+    "confirm": "Confirmer",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "noResults": "Aucun résultat trouvé",
+    "or": "ou",
+    "and": "et",
+    "of": "de",
+    "page": "Page",
+    "perPage": "par page",
+    "yes": "Oui",
+    "no": "Non"
+  },
+  "footer": {
+    "tagline": "Votre équipe de conciergerie experte à Shanghai.",
+    "links": {
+      "services": "Services",
+      "pricing": "Tarifs",
+      "about": "À propos",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation",
+      "contact": "Contact"
+    },
+    "copyright": "© 2025 BridgeLife. Tous droits réservés.",
+    "madeIn": "Fait avec soin à Shanghai 🇨🇳"
+  }
+}
