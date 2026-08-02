@@ -16,9 +16,20 @@ export default function LoginForm() {
     e.preventDefault();
     setLoading(true);
     setError('');
-    const result = await signIn(new FormData(e.currentTarget));
-    if (result?.error) {
-      setError(tErr('generic'));
+    try {
+      const result = await signIn(new FormData(e.currentTarget));
+      if (result?.error) {
+        const msg = result.error.toLowerCase();
+        if (msg.includes('invalid') || msg.includes('credentials') || msg.includes('password')) {
+          setError(tErr('invalidCredentials'));
+        } else if (msg.includes('confirm') || msg.includes('verified') || msg.includes('email')) {
+          setError(tErr('emailNotConfirmed'));
+        } else {
+          setError(tErr('generic'));
+        }
+      }
+    } catch {
+      // redirect() throws internally in Next.js — not a real error
     }
     setLoading(false);
   }

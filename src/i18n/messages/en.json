@@ -184,6 +184,7 @@
     "errors": {
       "invalidCredentials": "Invalid email or password. Please try again.",
       "emailInUse": "An account with this email already exists.",
+      "emailNotConfirmed": "Please confirm your email address before logging in.",
       "weakPassword": "Password must be at least 8 characters.",
       "generic": "Something went wrong. Please try again."
     }

@@ -184,6 +184,7 @@
     "errors": {
       "invalidCredentials": "邮箱或密码无效，请重试。",
       "emailInUse": "该邮箱已有账户。",
+      "emailNotConfirmed": "请在登录前确认您的电子邮件地址。",
       "weakPassword": "密码至少需要8个字符。",
       "generic": "出了点问题，请重试。"
     }

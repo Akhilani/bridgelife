@@ -184,6 +184,7 @@
     "errors": {
       "invalidCredentials": "E-mail ou mot de passe invalide. Veuillez réessayer.",
       "emailInUse": "Un compte avec cet e-mail existe déjà.",
+      "emailNotConfirmed": "Veuillez confirmer votre adresse e-mail avant de vous connecter.",
       "weakPassword": "Le mot de passe doit comporter au moins 8 caractères.",
       "generic": "Une erreur s'est produite. Veuillez réessayer."
     }
