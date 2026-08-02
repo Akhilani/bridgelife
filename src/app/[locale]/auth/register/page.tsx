@@ -1,4 +1,4 @@
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { Zap } from 'lucide-react';
 import RegisterForm from './RegisterForm';
@@ -8,8 +8,8 @@ export const metadata: Metadata = {
   title: 'Create Account',
 };
 
-export default function RegisterPage() {
-  const t = useTranslations('auth.register');
+export default async function RegisterPage() {
+  const t = await getTranslations('auth.register');
 
   return (
     <div className="min-h-screen bg-hero-gradient flex items-center justify-center p-4 relative overflow-hidden">

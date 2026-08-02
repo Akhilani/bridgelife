@@ -1,4 +1,4 @@
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { Zap, MailCheck } from 'lucide-react';
 import LoginForm from './LoginForm';
@@ -13,7 +13,7 @@ export default async function LoginPage({
 }: {
   searchParams: Promise<{ registered?: string }>;
 }) {
-  const t = useTranslations('auth.login');
+  const t = await getTranslations('auth.login');
   const { registered } = await searchParams;
   const justRegistered = registered === 'true';
 
