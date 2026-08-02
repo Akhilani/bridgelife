@@ -12,7 +12,8 @@ export async function signIn(formData: FormData) {
   const { error } = await supabase.auth.signInWithPassword({ email, password });
 
   if (error) {
-    return { error: error.message };
+    const msg = error.message || error.code || JSON.stringify(error) || 'Unknown auth error';
+    return { error: msg };
   }
 
   // Get user role for redirect
