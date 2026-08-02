@@ -4,22 +4,8 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { ReactQueryProvider } from '@/components/providers/ReactQueryProvider';
 import { Toaster } from 'sonner';
-import { Inter, Noto_Sans_SC } from 'next/font/google';
 import type { Metadata } from 'next';
 import '../globals.css';
-
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap',
-});
-
-const notoSansSC = Noto_Sans_SC({
-  subsets: ['latin'],
-  variable: '--font-noto-sc',
-  display: 'swap',
-  weight: ['400', '500', '700'],
-});
 
 export const metadata: Metadata = {
   title: {
@@ -46,28 +32,20 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = await getMessages();
 
   return (
-    <html
-      lang={locale}
-      className={`${inter.variable} ${notoSansSC.variable}`}
-      suppressHydrationWarning
-    >
-      <body className="bg-surface-900 text-slate-100 font-sans antialiased">
-        <NextIntlClientProvider messages={messages}>
-          <ReactQueryProvider>
-            {children}
-            <Toaster
-              position="top-right"
-              toastOptions={{
-                style: {
-                  background: '#1a2235',
-                  border: '1px solid rgba(255,255,255,0.1)',
-                  color: '#f1f5f9',
-                },
-              }}
-            />
-          </ReactQueryProvider>
-        </NextIntlClientProvider>
-      </body>
-    </html>
+    <NextIntlClientProvider messages={messages}>
+      <ReactQueryProvider>
+        {children}
+        <Toaster
+          position="top-right"
+          toastOptions={{
+            style: {
+              background: '#1a2235',
+              border: '1px solid rgba(255,255,255,0.1)',
+              color: '#f1f5f9',
+            },
+          }}
+        />
+      </ReactQueryProvider>
+    </NextIntlClientProvider>
   );
 }
