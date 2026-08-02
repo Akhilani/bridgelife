@@ -25,11 +25,15 @@ export default function LoginForm() {
         } else if (msg.includes('confirm') || msg.includes('verified') || msg.includes('email')) {
           setError(tErr('emailNotConfirmed'));
         } else {
-          setError(tErr('generic'));
+          // Show the raw Supabase error for easier debugging
+          setError(result.error);
         }
       }
-    } catch {
-      // redirect() throws internally in Next.js — not a real error
+    } catch (err: unknown) {
+      // redirect() throws a special Next.js error — let it propagate
+      if (err instanceof Error && err.message === 'NEXT_REDIRECT') throw err;
+      // Any other unexpected client-side error
+      setError(tErr('generic'));
     }
     setLoading(false);
   }
