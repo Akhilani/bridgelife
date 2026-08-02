@@ -2,7 +2,7 @@ import { createClient, createServiceClient } from '@/lib/supabase/server';
 import { redirect } from 'next/navigation';
 import { MobileNav } from '@/components/layout/MobileNav';
 import { Sidebar } from '@/components/layout/Sidebar';
-import type { UserRole } from '@/lib/types/database';
+import type { UserRole, Profile } from '@/lib/types/database';
 
 export default async function DashboardLayout({
   children,
@@ -35,13 +35,21 @@ export default async function DashboardLayout({
       'User';
     const fallbackLang = user.user_metadata?.preferred_language || 'en';
 
+    const payload: Omit<Profile, 'created_at' | 'updated_at'> = {
+      id: user.id,
+      full_name: fallbackName,
+      preferred_language: fallbackLang,
+      role: 'client',
+      phone_number: null,
+      wechat_id: null,
+      avatar_url: null,
+    };
+
     const serviceSupabase = await createServiceClient();
     const { data: upserted } = await serviceSupabase
       .from('profiles')
-      .upsert(
-        { id: user.id, full_name: fallbackName, preferred_language: fallbackLang, role: 'client' },
-        { onConflict: 'id' }
-      )
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      .upsert([payload] as any, { onConflict: 'id' })
       .select('role, full_name')
       .single();
 
