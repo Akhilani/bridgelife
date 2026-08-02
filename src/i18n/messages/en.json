@@ -166,7 +166,8 @@
       "noAccount": "Don't have an account?",
       "register": "Get started free",
       "google": "Continue with Google",
-      "loading": "Signing in..."
+      "loading": "Signing in...",
+      "registrationSuccess": "Account created! Check your email to confirm your address, then sign in below."
     },
     "register": {
       "title": "Join BridgeLife",

@@ -166,7 +166,8 @@
       "noAccount": "Pas encore de compte ?",
       "register": "Commencer gratuitement",
       "google": "Continuer avec Google",
-      "loading": "Connexion en cours..."
+      "loading": "Connexion en cours...",
+      "registrationSuccess": "Compte créé ! Vérifiez votre e-mail pour confirmer votre adresse, puis connectez-vous ci-dessous."
     },
     "register": {
       "title": "Rejoindre BridgeLife",

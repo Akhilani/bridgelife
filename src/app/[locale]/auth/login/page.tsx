@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
-import { Zap } from 'lucide-react';
+import { Zap, MailCheck } from 'lucide-react';
 import LoginForm from './LoginForm';
 import type { Metadata } from 'next';
 
@@ -8,8 +8,14 @@ export const metadata: Metadata = {
   title: 'Sign In',
 };
 
-export default function LoginPage() {
+export default async function LoginPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ registered?: string }>;
+}) {
   const t = useTranslations('auth.login');
+  const { registered } = await searchParams;
+  const justRegistered = registered === 'true';
 
   return (
     <div className="min-h-screen bg-hero-gradient flex items-center justify-center p-4 relative overflow-hidden">
@@ -36,6 +42,14 @@ export default function LoginPage() {
             <h1 className="text-2xl font-bold text-white mb-1">{t('title')}</h1>
             <p className="text-slate-400 text-sm">{t('subtitle')}</p>
           </div>
+
+          {/* Registration success notice */}
+          {justRegistered && (
+            <div className="mb-5 flex items-start gap-3 bg-teal-500/10 border border-teal-500/25 rounded-lg p-3.5">
+              <MailCheck size={18} className="text-teal-400 shrink-0 mt-0.5" />
+              <p className="text-sm text-teal-300">{t('registrationSuccess')}</p>
+            </div>
+          )}
 
           <LoginForm />
 

@@ -31,7 +31,18 @@ export default async function LandingPage() {
   let profile: Profile | null = null;
   if (user) {
     const { data } = await supabase.from('profiles').select('*').eq('id', user.id).single();
-    profile = data;
+    profile = data ?? {
+      // Fallback: synthesize from auth metadata if trigger hasn't run yet
+      id: user.id,
+      full_name: user.user_metadata?.full_name ?? user.email?.split('@')[0] ?? 'User',
+      role: 'client',
+      preferred_language: user.user_metadata?.preferred_language ?? 'en',
+      phone_number: null,
+      wechat_id: null,
+      avatar_url: null,
+      created_at: new Date().toISOString(),
+      updated_at: new Date().toISOString(),
+    } as Profile;
   }
 
   return (

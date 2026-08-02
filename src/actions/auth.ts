@@ -61,7 +61,9 @@ export async function signUp(formData: FormData) {
   }
 
   revalidatePath('/', 'layout');
-  redirect(`/${preferredLanguage}/dashboard`);
+  // Redirect to login with a flag — Supabase may require email confirmation
+  // before the session is fully active. The login page will show a notice.
+  redirect(`/${preferredLanguage}/auth/login?registered=true`);
 }
 
 export async function signOut() {

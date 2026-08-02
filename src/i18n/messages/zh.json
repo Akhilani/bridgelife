@@ -166,7 +166,8 @@
       "noAccount": "还没有账户？",
       "register": "免费注册",
       "google": "使用Google继续",
-      "loading": "登录中..."
+      "loading": "登录中...",
+      "registrationSuccess": "账户已创建！请查收您的电子邮件以确认地址，然后在下方登录。"
     },
     "register": {
       "title": "加入BridgeLife",

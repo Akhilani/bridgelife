@@ -1,4 +1,4 @@
-import { createClient } from '@/lib/supabase/server';
+import { createClient, createServiceClient } from '@/lib/supabase/server';
 import { redirect } from 'next/navigation';
 import { MobileNav } from '@/components/layout/MobileNav';
 import { Sidebar } from '@/components/layout/Sidebar';
@@ -17,7 +17,7 @@ export default async function DashboardLayout({
     data: { user },
   } = await supabase.auth.getUser();
 
-  if (!user) redirect(`/${locale}/auth/login`);
+  if (!user) redirect(`/${locale}/auth/login?redirectTo=/${locale}/dashboard`);
 
   const { data } = await supabase
     .from('profiles')
@@ -25,9 +25,30 @@ export default async function DashboardLayout({
     .eq('id', user.id)
     .single();
 
-  const profile = data as { role: UserRole; full_name: string } | null;
+  let profile = data as { role: UserRole; full_name: string } | null;
 
-  if (!profile) redirect(`/${locale}/auth/login`);
+  // If profile is missing (trigger may not have run), create it on-the-fly
+  if (!profile) {
+    const fallbackName =
+      user.user_metadata?.full_name ||
+      user.email?.split('@')[0] ||
+      'User';
+    const fallbackLang = user.user_metadata?.preferred_language || 'en';
+
+    const serviceSupabase = await createServiceClient();
+    const { data: upserted } = await serviceSupabase
+      .from('profiles')
+      .upsert(
+        { id: user.id, full_name: fallbackName, preferred_language: fallbackLang, role: 'client' },
+        { onConflict: 'id' }
+      )
+      .select('role, full_name')
+      .single();
+
+    profile = upserted as { role: UserRole; full_name: string } | null;
+  }
+
+  if (!profile) redirect(`/${locale}/auth/login?redirectTo=/${locale}/dashboard`);
 
   return (
     <div className="flex min-h-screen bg-surface-900">

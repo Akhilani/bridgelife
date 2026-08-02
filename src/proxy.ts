@@ -16,7 +16,7 @@ const ROLE_ROUTES: Record<string, string[]> = {
   '/admin': ['admin'],
 };
 
-export async function middleware(request: NextRequest) {
+export async function proxy(request: NextRequest) {
   // Run intl middleware first to handle locale routing
   const intlResponse = intlMiddleware(request);
 
